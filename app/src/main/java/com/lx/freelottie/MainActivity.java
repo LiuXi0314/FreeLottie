@@ -53,13 +53,6 @@ public class MainActivity extends FragmentActivity {
         animationView.loop(false);
         animationView.playAnimation();
 
-//        animationView.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                animationView.cancelAnimation();
-//
-//            }
-//        }, 5000);
     }
 
     private void log(String str) {
